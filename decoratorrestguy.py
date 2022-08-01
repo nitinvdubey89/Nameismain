@@ -1,0 +1,1 @@
+def sum(number, fn): # fn is a function

@@ -1,0 +1,234 @@
+nums is [1, 5, -2, 0, 10, 100, 55, 12, 10, 2, -10, -3]
+middle_index is 6 and next is left half 
+[1, 5, -2, 0, 10, 100] next is right half 
+ [55, 12, 10, 2, -10, -3]
+###################################
+next is merge sort left_half
+nums is [1, 5, -2, 0, 10, 100]
+middle_index is 3 and next is left half 
+[1, 5, -2] next is right half 
+ [0, 10, 100]
+###################################
+next is merge sort left_half
+nums is [1, 5, -2]
+middle_index is 1 and next is left half 
+[1] next is right half 
+ [5, -2]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+nums is [5, -2]
+middle_index is 1 and next is left half 
+[5] next is right half 
+ [-2]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+here the left merge sort is over and right  merge sort starts
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 1 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 5 and -2
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] -2 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 1 and -2
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] -2 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 1
+if left_half[i] < right_half[j] 1 and 5
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 1 and 5
+next is merge sort right_half
+nums is [0, 10, 100]
+middle_index is 1 and next is left half 
+[0] next is right half 
+ [10, 100]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+nums is [10, 100]
+middle_index is 1 and next is left half 
+[10] next is right half 
+ [100]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+here the left merge sort is over and right  merge sort starts
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 1 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 10 and 100
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 10 and 100
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 0 and 10
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 0 and 10
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] -2 and 0
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] -2 and 0
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 1 and j is 0
+if left_half[i] < right_half[j] 1 and 0
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] 0 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 1 and j is 1
+if left_half[i] < right_half[j] 1 and 10
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 1 and 10
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 2 and j is 1
+if left_half[i] < right_half[j] 5 and 10
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 5 and 10
+next is merge sort right_half
+nums is [55, 12, 10, 2, -10, -3]
+middle_index is 3 and next is left half 
+[55, 12, 10] next is right half 
+ [2, -10, -3]
+###################################
+next is merge sort left_half
+nums is [55, 12, 10]
+middle_index is 1 and next is left half 
+[55] next is right half 
+ [12, 10]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+nums is [12, 10]
+middle_index is 1 and next is left half 
+[12] next is right half 
+ [10]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+here the left merge sort is over and right  merge sort starts
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 1 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 12 and 10
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] 10 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 55 and 10
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] 10 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 1
+if left_half[i] < right_half[j] 55 and 12
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 1 and right_half[j] 12 and we do j+1
+next is merge sort right_half
+nums is [2, -10, -3]
+middle_index is 1 and next is left half 
+[2] next is right half 
+ [-10, -3]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+nums is [-10, -3]
+middle_index is 1 and next is left half 
+[-10] next is right half 
+ [-3]
+###################################
+next is merge sort left_half
+here the left merge sort is over and right  merge sort starts
+next is merge sort right_half
+here the left merge sort is over and right  merge sort starts
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 1 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] -10 and -3
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] -10 and -3
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 2 and -10
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] -10 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 1 and 2 respectively value of i is 0 and j is 1
+if left_half[i] < right_half[j] 2 and -3
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 1 and right_half[j] -3 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] 10 and -10
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] -10 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 0 and j is 1
+if left_half[i] < right_half[j] 10 and -3
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 1 and right_half[j] -3 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 3 and 3 respectively value of i is 0 and j is 2
+if left_half[i] < right_half[j] 10 and 2
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 2 and right_half[j] 2 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 0 and j is 0
+if left_half[i] < right_half[j] -2 and -10
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 0 and right_half[j] -10 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 0 and j is 1
+if left_half[i] < right_half[j] -2 and -3
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 1 and right_half[j] -3 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 0 and j is 2
+if left_half[i] < right_half[j] -2 and 2
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] -2 and 2
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 1 and j is 2
+if left_half[i] < right_half[j] 0 and 2
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 0 and 2
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 2 and j is 2
+if left_half[i] < right_half[j] 1 and 2
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 1 and 2
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 3 and j is 2
+if left_half[i] < right_half[j] 5 and 2
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 2 and right_half[j] 2 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 3 and j is 3
+if left_half[i] < right_half[j] 5 and 10
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 5 and 10
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 4 and j is 3
+if left_half[i] < right_half[j] 10 and 10
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 3 and right_half[j] 10 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 4 and j is 4
+if left_half[i] < right_half[j] 10 and 12
+#######here we enter the while loop if statement###################
+if left_half[i] < right_half[j] 10 and 12
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 5 and j is 4
+if left_half[i] < right_half[j] 100 and 12
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 4 and right_half[j] 12 and we do j+1
+#######here we enter the while loop###################
+len(left_half)  len(right_half)  is 6 and 6 respectively value of i is 5 and j is 5
+if left_half[i] < right_half[j] 100 and 55
+#######here we enter the while loop else statement###################
+here we are entering the  else statemet  j is 5 and right_half[j] 55 and we do j+1

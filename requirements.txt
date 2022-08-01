@@ -1,0 +1,5 @@
+requests
+numpy
+gunicorn
+flask_restful
+Werkzeug~=2.0.0

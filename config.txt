@@ -1,0 +1,8 @@
+enable
+configure terminal
+enable secret cisco
+username u1 secret cisco
+int loopback 0
+ip address 1.1.1.1 255.255.255.0
+end
+exit # this exits the connection
